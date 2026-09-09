@@ -30,7 +30,7 @@ $ leakix -l 2 -q "protocol:web AND plugin:GitConfigPlugin" -t "{{ .Ip }}:{{ .Por
 [remote "origin"]
 	url = https://gitlab.com/lyranalytics/lyra-website.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-[branch "abdulrahman"]
+[branch "saud"]
 	remote = origin
 	merge = refs/heads/abdulrahman
 
